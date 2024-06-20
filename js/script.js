@@ -174,5 +174,4 @@ document.getElementById('contactFormElement').addEventListener('submit', functio
         return;
     }
 
-    // If all checks pass, the form will be submitted
 });
