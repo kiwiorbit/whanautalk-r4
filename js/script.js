@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     anchorLinks.forEach(link => {
         link.addEventListener("click", closeNav);
     });
-})
+});
 
 
 function toggleCollapse(elementId) {
@@ -84,11 +84,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Attach touch event listeners to the sidebar
-    sidepanel.addEventListener("touchstart", handleTouchStart, false);
-    sidepanel.addEventListener("touchend", handleTouchEnd, false);
+    // Attach touch event listeners to the entire document
+    document.addEventListener("touchstart", handleTouchStart, false);
+    document.addEventListener("touchend", handleTouchEnd, false);
 });
-
 
 
 document.addEventListener("DOMContentLoaded", function () {
