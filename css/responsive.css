@@ -159,6 +159,10 @@
         margin-right: 20px;
     }
 
+    .logo-name {
+        display: none;
+    }
+
     .about {
         padding: 70px 0;
     }
