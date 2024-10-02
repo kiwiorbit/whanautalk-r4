@@ -270,7 +270,7 @@ li {
 
 .btn-secondary {
     font-size: 14px;
-    background:transparent;
+    background:white;
     color: var(--dark);
     padding: 0.60em 2.3em;
     display: flex;
@@ -422,11 +422,11 @@ li {
     background: linear-gradient(to top right, #a914ff80, #1e92fe94, #3dc4ed9c);
 
 
-    top: 45%;
+    top: 40%;
     left: 78%;
     filter: blur(20px);
     animation-name: gooey;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
@@ -481,7 +481,7 @@ li {
 /* <!-- ====== 1.1. Header section ====== --> */
 
 .header-index {
-    background-image: url(../images/2ndmotherdaughter.webp);
+    background-image: url(../images/finaltest.png);
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -739,14 +739,15 @@ aside li a {
 
 
 .hero h2 {
-    color: rgb(32, 32, 32);
+    color: white;
     font-size: 20px;
     line-height: 1.1;
-    font-weight: 500;
+    font-weight: 600;
     padding: 10px 20px;
     font-family: var(--primary-font);
     letter-spacing: 1px;
     max-width: 900px;
+    text-shadow:2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1059,6 +1060,73 @@ aside li a {
     clip-path: circle(48% at 50% 50%);
     
 }
+
+
+.gallery {
+    background-color: var(--dark);
+    padding: 120px 0;
+    margin-top: -1px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents overflow */
+}
+
+.gallery .full-width {
+    grid-column: span 3; /* Ensures first row takes up 100% of width */
+}
+
+.gallery .grid-item.large {
+    grid-column: span 2; /* Third row first column spans 66% */
+}
+
+.gallery .grid-item.small {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery figure {
+    margin: 0;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;/* Ensures images fill their containers without distortion */
+}
+
+.gallery-hr {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.gallery-hr h2{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.gallery-hr hr {
+    width: 100px;
+    border: none;
+    border-top: 2px solid white;
+}
+
 
 /* ====== End of 1.5. About us section ====== */
 
