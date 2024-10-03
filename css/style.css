@@ -1086,15 +1086,7 @@ aside li a {
     grid-column: span 3; /* Ensures first row takes up 100% of width */
 }
 
-.gallery .grid-item.large {
-    grid-column: span 2; /* Third row first column spans 66% */
-}
 
-.gallery .grid-item.small {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 .gallery figure {
     margin: 0;
