@@ -216,6 +216,15 @@ li {
     font-family: var(--primary-font);
 }
 
+.header-index {
+    background-image: url('../images/2ndmotherdaughter.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
 .hero-button {
     background:var(--dark);
     color: white;
@@ -481,7 +490,7 @@ li {
 /* <!-- ====== 1.1.  section ====== --> */
 
 .-index {
-    background-image: url("../images/2ndmotherdaughter.webp");
+    background-image: url("../images/2ndmotherdaughter.webp"); 
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -1919,7 +1928,7 @@ aside li a {
 /* ====== 1.12. FAQ section ====== */
 
 .faq {
-    background-image: url("../images/2kids.webp");
+    background-image: url("../images/2kids.webp"); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -461,6 +461,13 @@
 
 @media screen and (max-width: 479px) {
 
+    .header-index {
+
+        background-position: center bottom 110px;
+
+        height: 95vh;
+    }
+
 
     /* global style */
     h1 {
