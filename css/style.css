@@ -481,7 +481,7 @@ li {
 /* <!-- ====== 1.1.  section ====== --> */
 
 .-index {
-    background-image: url("../images/2ndmotherdaughter.webp");
+    background-image: url(../images/2ndmotherdaughter.webp);
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -2181,5 +2181,6 @@ footer {
 ::-webkit-scrollbar-track {
     background: #cdeaff;    
 }
+
 
 
