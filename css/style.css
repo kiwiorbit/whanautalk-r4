@@ -79,7 +79,7 @@ label,
 aside,
 figure,
 footer,
-header,
+,
 nav,
 section,
 video {
@@ -95,7 +95,7 @@ video {
 aside,
 figure,
 footer,
-header,
+,
 nav,
 section {
     display: block;
@@ -478,10 +478,10 @@ li {
         transform: translate(10%, 20%) skew(-12deg);
     }
 }
-/* <!-- ====== 1.1. Header section ====== --> */
+/* <!-- ====== 1.1.  section ====== --> */
 
-.header-index {
-    background-image: url(../images/finaltest.png);
+.-index {
+    background-image: url(../images/2ndmotherdaughter.webp);
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -2181,3 +2181,4 @@ footer {
 ::-webkit-scrollbar-track {
     background: #cdeaff;    
 }
+
